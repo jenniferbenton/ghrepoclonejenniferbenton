@@ -16,7 +16,7 @@ memory = float(input("Now, enter your memory usage (GB): "))
 # If the IF statement is false dependent on the user's input, i have created an ELIF statement as an additional condition for if the CPU is underutilised.
 # If the user's input is false according to the IF and ELIF statement, I have created an ELSE statement for any other value inputted by the user. This will tell them their CPU usage is optimal
 if CPU > 75:
-    print(f"{name}, your {computer}'s CPU is overloaded. You may experience reduced system performance, battery consumption and hardware overheating. ")
+    print(f"{name}, your {computer}'s CPU is overloaded. You may experience reduced system performance, battery consumption and hardware overheating.")
 elif CPU < 40:
     print(f"{name}, your {computer}'s CPU is underutilized. Your system may run smoother and have a reduced chance of crashing, however your CPU is in insufficient use so you should maybe consider downsizing.")
 else:
@@ -28,6 +28,8 @@ else:
 if memory > 8:
     print("Your memory seems to be overloaded. This means your systems may run slower.")
 elif memory < 4:
-    print("Your memory seems to be underutilized. This means your system should run smooth, however your memory is isn't in sufficient use, so you should consider downsizing. ")
+    print("Your memory seems to be underutilized. This means your system should run smooth, however your memory is isn't in sufficient use, so you should consider downsizing.")
 else:
     print("Your memory seems to be optimal. Try and keep it this way for sufficient optimisation.")
+
+print("Thank you for using this system. I hope this helped you!")
