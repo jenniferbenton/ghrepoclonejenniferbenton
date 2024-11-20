@@ -6,7 +6,7 @@ name = input("First question is can you please give me your name?: ")
 print(f"Nice to meet you {name}. Lets get started. \nOn a scale of 1-10, 1 being bad and 10 being great, how would you rate your mood recently?")
 score = int(input("Please answer here: "))
 #I then use conditional statements to tailor the systems response depending on the user input's value. I firstly use the if statement for the first condition. If the input is false according to
-#the 'if' statement, i then created an elif statement for another condition. If the user's input is also false according to the elif statement, i created an else statement for every other condition.
+#the 'if' statement, I then created an elif statement for another condition. If the user's input is also false according to the elif statement, I created an else statement for every other condition.
 if score <= 3:
     print(f"You have rated your mood as a {score}. I'm sorry you feel this way {name}. Chatting to family and friends can help take the burden off. For more information please visit the NHS mental wellbeing site.")
 elif score >=8:

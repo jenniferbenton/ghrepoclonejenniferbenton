@@ -28,7 +28,7 @@ else:
 if memory > 8:
     print("Your memory seems to be overloaded. This means your systems may run slower.")
 elif memory < 4:
-    print("Your memory seems to be underutilized. This means your system should run smooth, however your memory is isn't in sufficient use, so you should consider downsizing.")
+    print("Your memory seems to be underutilized. This means your system should run smooth, however your memory isn't in sufficient use, so you should consider downsizing.")
 else:
     print("Your memory seems to be optimal. Try and keep it this way for sufficient optimisation.")
 
